@@ -1,0 +1,54 @@
+body {
+   background: #E5E5E5;
+   padding: 0;
+   margin: 0;
+   align-content: center;
+}
+
+.container {
+    max-width: 1390px;
+    margin: auto;
+    border: 2px solid rgb(69, 73, 181);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+.line {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    padding: 0.5px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+}
+
+.logo {
+    width: 100%;
+    height: 3vh;
+    background: url(/img/LOGO.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
+.content_left {
+    width: 690px;
+    height: 900px;
+    background: url(/img/img1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
